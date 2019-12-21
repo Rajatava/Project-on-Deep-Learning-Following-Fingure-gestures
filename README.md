@@ -50,6 +50,8 @@ while True:
 	k=cv2.waitKey(30) & 0xFF
 	if k==32:
 		break
-# cleanup the camera and close any open windows
+"""
+cleanup the camera and close any open Window
+"""
 cap.release()
 cv2.destroyAllWindows()
